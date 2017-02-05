@@ -1,0 +1,58 @@
+Recommendations, possible problems, weird parts, everything what seems strange to me
+
+File Location: app/v1/helpers/file.js
+Line: 59	Do not use constant directly. it would be saved in to one config.js file.
+
+File Location: app/v1/helpers/linkedin.js
+Line: 35	Do not use constant directly. it would be saved in to one config.js file.
+Line: 48	Do not use constant directly. it would be saved in to one config.js file.
+
+
+File Location: app/v1/helbpers/youtube.js
+Line: 30	missed ';' end of the line "This is not Error, But seems strange", should follow general code format in js.
+Line: 52	missed ';' end of the line
+
+It would be better to write comment above the funtions even though it is clear.
+
+File Location: app/v1/helopers/mailers.js
+Line: 12 	missed ';' end of the line
+Line: 16 	missed ';' end of the line
+Line: 19 	missed ';' end of the line
+Line: 27 	missed ';' end of the line
+Line: 35 	missed ';' end of the line
+Line: 41 	missed ';' end of the line
+Line: 47 	missed ';' end of the line
+Line: 52 	missed ';' end of the line
+Line: 60 	missed ';' end of the line
+Line: 70 	missed ';' end of the line
+
+
+File Location: app/v1/helpers/linkedin.js
+Line: 30 	missed ';' end of the line
+Line: 41 	missed ';' end of the line
+Line: 53 	missed ';' end of the line
+Line: 62 	missed ';' end of the line
+
+File Location: app/v1/helpers/instagram.js
+Line: 20 	missed ';' end of the line
+Line: 42 	missed ';' end of the line
+Line: 54 	missed ';' end of the line
+
+File Location: app/v1/helpers/image.js
+Line: 28 	missed ';' end of the line
+
+File Location: app/v1/helpers/google.js
+Line: 37 	missed ';' end of the line
+Line: 58 	missed ';' end of the line
+Line: 65 	missed ';' end of the line
+Line: 83 	missed ';' end of the line
+
+File Location: app/v1/helpers/file.js
+Line: 39 	missed ';' end of the line
+Line: 41 	missed ';' end of the line
+Line: 98 	missed ';' end of the line
+
+File Location: app/v1/helpers/facebook.js
+Line: 107 	missed ';' end of the line
+Line: 142 	missed ';' end of the line
+Line: 173 	missed ';' end of the line
