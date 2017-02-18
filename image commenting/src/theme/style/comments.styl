@@ -1,0 +1,124 @@
+.comments
+  margin-top 47px
+  overflow-y scroll
+  .comment
+    padding 10px 10px 15px 10px
+    border-bottom 1px solid #e2e2e2
+    opacity 0.4
+    &.active
+      opacity 1
+
+    .head
+      display flex
+      flex-flow row wrap
+      justify-content flex-start
+
+      .id
+        display flex
+        justify-content center
+        width 32px
+        height 32px
+        border-radius 16px
+        background #6e778b
+        line-height 32px
+        color #fff
+        font-family 'Lato-Black', sans-serif
+        font-size 12px
+        cursor pointer
+      .author
+        display flex
+        flex 1 auto
+        padding 0 10px
+        line-height 32px
+        font-family 'Lato Black', sans-serif
+        font-weight 900
+        font-size 14px
+      .operation
+        display flex
+        flex-flow row wrap
+        align-content center
+        line-height 32px
+        font-size 14px
+        color #8d8d8d
+        .label
+          padding-right 4px
+        .mark-resolve
+          width 18px
+          height 32px
+
+    .body
+      .comment-form, .reply-form
+        padding 10px 0 0 42px
+        font-family Lato
+        font-size 14px
+
+        btn()
+          padding 0 18px
+          font-family Lato
+          font-size 12px
+          font-weight bold
+          line-height 35px
+          border-radius 4px
+          border 1px solid #e2e2e2
+          outline none
+          margin-right 6px
+
+        .comment-area
+          width 100%
+          margin-bottom 10px
+          resize none
+        .btn-add
+          btn()
+          background-color #6e778b
+          color #fff
+          &:disabled
+            opacity 0.5
+            cursor not-allowed
+        .btn-cancel
+          btn()
+          background-color #fff
+          color #b2b2b2
+        .invite
+          color #1486d0
+          font-family Lato
+          font-size 12px
+
+      .message
+        padding 10px 0 0 42px
+        line-height 22px
+        font-size 14px
+        color #515151
+
+      .replies
+        .reply
+          padding-top 20px
+          .author
+            padding-left 42px
+            font-family 'Lato Black', sans-serif
+            font-weight 900
+            font-size 14px
+
+      .reply-form
+        padding 10px 10px 10px 42px
+        .reply-area
+          width 100%
+          margin-bottom 10px
+          resize none
+          //border-radius 4px
+          //border 1px solid #e2e2e2
+          text-indent 5px
+          line-height 14px
+          padding 5px 0
+
+  .example-enter
+    opacity 0.01
+  .example-enter
+    &.example-enter-active
+      opacity 1
+      transition opacity 500ms ease-in
+  .example-leave
+    opacity 1
+  .example-leave
+    &.example-leave-active
+      opacity 0.01
+      transition opacity 300ms ease-in

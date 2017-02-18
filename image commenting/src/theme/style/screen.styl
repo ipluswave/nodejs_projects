@@ -1,0 +1,110 @@
+.screen
+  display flex
+  flex-flow row wrap
+  flex 1
+  height 100%
+  overflow auto
+  padding 15px 20px 15px 15px
+  background #f6f6f6
+  position relative
+  transition padding 0.15s linear
+  &.fullscreen
+    padding 0 0 15px 0
+
+  .image
+    display flex
+    flex 1
+    height 600px
+    background #e2e2e2
+
+  .tag
+    width 32px
+    height 32px
+    border-radius 16px
+    background #6e778b
+    position absolute
+    text-align center
+    line-height 32px
+    color #fff
+    font-family 'Lato-Black', sans-serif
+    font-size 12px
+    cursor pointer
+    opacity 0.4
+    &.active
+      opacity 1
+
+  .control
+    border none
+    line-height 17px
+    height 17px
+    background-color inherit
+
+  .background-widget
+    display flex
+    flex-flow row wrap
+    justify-content space-between
+    width 117px
+    position absolute
+    left 17px
+    bottom 15px
+    .control
+      width 17px
+      border-radius 9px
+      border 1px solid #e2e2e2
+      &.white
+        background-color #fff
+      &.white-two
+        background-color #f6f6f6
+      &.greyish
+        background-color #b2b2b2
+      &.greyish-brown
+        background-color #515151
+      &.black
+        background-color #000
+
+  .zoom-widget
+    display flex
+    flex-flow row wrap
+    justify-content space-between
+    width 75px
+    font-family 'Lato Bold', sans-serif
+    position absolute
+    right 17px
+    bottom 15px
+
+    .zoom-out
+      font-size 16px
+      color #8d8d8d
+    .fit
+      font-size 12px
+      font-weight 900
+      color #8d8d8d
+    .zoom-in
+      font-size 16px
+      color #8d8d8d
+
+    .plus, .minus
+      position relative
+      width 12px
+      height 2px
+      margin auto
+      background-color #8d8d8d
+      &::before, &::after
+        margin 0
+        padding 0
+        border none
+        outline none
+        box-shadow none
+        border-radius 0
+        font-weight inherit
+        box-sizing border-box
+        flex-shrink 0
+    .plus
+      &::after
+        content ""
+        position absolute
+        width 2px
+        height 12px
+        top -5px
+        left 5px
+        background-color #8d8d8d
